@@ -1,0 +1,173 @@
+export type WordMeaning = { partOfSpeech: string; text: string; highFrequency?: boolean }
+export type WordExample = { sentence: string; translation: string }
+export type WordDetail = {
+  meanings: WordMeaning[]
+  examples: WordExample[]
+  collocations: { phrase: string; meaning: string; example: string; translation: string }[]
+  derivatives: { word: string; partOfSpeech: string; meaning: string }[]
+  synonyms: string[]
+  confusables: { word: string; meaning: string }[]
+}
+
+export const WORD_DETAILS: Record<string, WordDetail> = {
+  'cet4-abandon': {
+    meanings: [{ partOfSpeech: 'v.', text: '放弃；抛弃', highFrequency: true }, { partOfSpeech: 'v.', text: '中止；离弃' }],
+    examples: [{ sentence: 'She decided to abandon the plan and try something new.', translation: '她决定放弃这个计划，尝试一些新事物。' }],
+    collocations: [{ phrase: 'abandon a plan', meaning: '放弃计划', example: 'They abandoned the plan after careful discussion.', translation: '经过仔细讨论后，他们放弃了这个计划。' }, { phrase: 'abandon hope', meaning: '放弃希望', example: 'We should never abandon hope.', translation: '我们永远不应放弃希望。' }],
+    derivatives: [{ word: 'abandoned', partOfSpeech: 'adj.', meaning: '被遗弃的；放纵的' }, { word: 'abandonment', partOfSpeech: 'n.', meaning: '放弃；遗弃' }],
+    synonyms: ['give up 放弃', 'desert 抛弃；遗弃', 'quit 停止；放弃'],
+    confusables: [{ word: 'abundant', meaning: 'adj. 大量的；丰富的' }, { word: 'abandon', meaning: 'v. 放弃；抛弃' }],
+  },
+  'cet4-absorb': {
+    meanings: [{ partOfSpeech: 'v.', text: '吸收（液体、能量等）', highFrequency: true }, { partOfSpeech: 'v.', text: '理解；掌握（信息）', highFrequency: true }, { partOfSpeech: 'v.', text: '使全神贯注' }],
+    examples: [{ sentence: 'It takes time to absorb new information.', translation: '理解新信息需要时间。' }],
+    collocations: [{ phrase: 'absorb knowledge', meaning: '吸收知识', example: 'Children absorb knowledge in different ways.', translation: '孩子们以不同方式吸收知识。' }, { phrase: 'be absorbed in', meaning: '全神贯注于', example: 'He was absorbed in his book.', translation: '他全神贯注地看书。' }],
+    derivatives: [{ word: 'absorption', partOfSpeech: 'n.', meaning: '吸收；专注' }, { word: 'absorbed', partOfSpeech: 'adj.', meaning: '全神贯注的' }],
+    synonyms: ['take in 吸收；理解', 'soak up 吸收', 'engross 使全神贯注'],
+    confusables: [{ word: 'absorb', meaning: 'v. 吸收；理解' }, { word: 'absurd', meaning: 'adj. 荒谬的' }],
+  },
+  'cet4-achieve': {
+    meanings: [{ partOfSpeech: 'v.', text: '实现；达到（目标）', highFrequency: true }, { partOfSpeech: 'v.', text: '取得；获得（成就）' }],
+    examples: [{ sentence: 'With patience, you can achieve your goals.', translation: '只要有耐心，你就能实现目标。' }],
+    collocations: [{ phrase: 'achieve a goal', meaning: '实现目标', example: 'She worked hard to achieve her goal.', translation: '她努力实现自己的目标。' }, { phrase: 'achieve success', meaning: '取得成功', example: 'The team achieved great success.', translation: '这个团队取得了巨大成功。' }],
+    derivatives: [{ word: 'achievement', partOfSpeech: 'n.', meaning: '成就；成绩' }, { word: 'achievable', partOfSpeech: 'adj.', meaning: '可实现的' }],
+    synonyms: ['accomplish 完成；实现', 'attain 达到；获得', 'fulfil 实现；履行'],
+    confusables: [{ word: 'achieve', meaning: 'v. 实现；达到' }, { word: 'archive', meaning: 'n. 档案；v. 存档' }],
+  },
+  'cet4-adapt': {
+    meanings: [{ partOfSpeech: 'v.', text: '适应；适合', highFrequency: true }, { partOfSpeech: 'v.', text: '改编；改写' }],
+    examples: [{ sentence: 'Children adapt quickly to a new environment.', translation: '孩子们能很快适应新环境。' }],
+    collocations: [{ phrase: 'adapt to', meaning: '适应', example: 'It took her a while to adapt to city life.', translation: '她花了一段时间才适应城市生活。' }, { phrase: 'adapt a novel', meaning: '改编小说', example: 'The director adapted the novel for television.', translation: '导演把这部小说改编成了电视剧。' }],
+    derivatives: [{ word: 'adaptation', partOfSpeech: 'n.', meaning: '适应；改编' }, { word: 'adaptable', partOfSpeech: 'adj.', meaning: '能适应的' }],
+    synonyms: ['adjust 调整；适应', 'accommodate 适应；容纳', 'modify 修改；改编'],
+    confusables: [{ word: 'adopt', meaning: 'v. 采用；收养' }, { word: 'adept', meaning: 'adj. 熟练的；擅长的' }],
+  },
+  'cet4-benefit': {
+    meanings: [{ partOfSpeech: 'n.', text: '益处；优势', highFrequency: true }, { partOfSpeech: 'v.', text: '使受益；得益于', highFrequency: true }],
+    examples: [{ sentence: 'Regular reading can benefit your vocabulary.', translation: '定期阅读有助于扩大你的词汇量。' }],
+    collocations: [{ phrase: 'benefit from', meaning: '从……中受益', example: 'Students benefit from regular practice.', translation: '学生从定期练习中受益。' }, { phrase: 'for the benefit of', meaning: '为了……的利益', example: 'The rules are for the benefit of everyone.', translation: '这些规则是为了所有人的利益。' }],
+    derivatives: [{ word: 'beneficial', partOfSpeech: 'adj.', meaning: '有益的' }, { word: 'beneficiary', partOfSpeech: 'n.', meaning: '受益者' }],
+    synonyms: ['advantage 优势；益处', 'profit 利益；获益', 'be advantageous to 对……有利'],
+    confusables: [{ word: 'benefit', meaning: 'n. 益处；v. 使受益' }, { word: 'belief', meaning: 'n. 信念；相信' }],
+  },
+  'cet4-challenge': {
+    meanings: [{ partOfSpeech: 'n.', text: '挑战；艰巨任务', highFrequency: true }, { partOfSpeech: 'v.', text: '向……挑战；质疑', highFrequency: true }],
+    examples: [{ sentence: 'Learning a language is a rewarding challenge.', translation: '学习一门语言是一项有回报的挑战。' }],
+    collocations: [{ phrase: 'face a challenge', meaning: '面对挑战', example: 'We are ready to face any challenge.', translation: '我们准备好面对任何挑战。' }, { phrase: 'challenge an idea', meaning: '质疑一种观点', example: 'The study challenges a popular idea.', translation: '这项研究质疑了一种流行观点。' }],
+    derivatives: [{ word: 'challenging', partOfSpeech: 'adj.', meaning: '有挑战性的' }, { word: 'challenger', partOfSpeech: 'n.', meaning: '挑战者' }],
+    synonyms: ['test 考验；挑战', 'dare 敢于挑战', 'question 质疑'],
+    confusables: [{ word: 'challenge', meaning: 'n. 挑战；v. 质疑' }, { word: 'change', meaning: 'n. 改变；v. 改变' }],
+  },
+  'cet4-complex': {
+    meanings: [{ partOfSpeech: 'adj.', text: '复杂的；难懂的', highFrequency: true }, { partOfSpeech: 'n.', text: '建筑群；综合体' }, { partOfSpeech: 'n.', text: '情结' }],
+    examples: [{ sentence: 'The problem seems complex at first.', translation: '这个问题起初看起来很复杂。' }],
+    collocations: [{ phrase: 'a complex problem', meaning: '复杂的问题', example: 'Climate change is a complex problem.', translation: '气候变化是一个复杂的问题。' }, { phrase: 'sports complex', meaning: '体育中心；体育综合体', example: 'The new sports complex opens next week.', translation: '新的体育中心下周开放。' }],
+    derivatives: [{ word: 'complexity', partOfSpeech: 'n.', meaning: '复杂性' }, { word: 'complexion', partOfSpeech: 'n.', meaning: '肤色；面色' }],
+    synonyms: ['complicated 复杂的', 'intricate 错综复杂的', 'involved 复杂的'],
+    confusables: [{ word: 'complex', meaning: 'adj. 复杂的；n. 综合体' }, { word: 'complete', meaning: 'adj. 完整的；v. 完成' }],
+  },
+  'cet4-evidence': {
+    meanings: [{ partOfSpeech: 'n.', text: '证据；证明', highFrequency: true }, { partOfSpeech: 'n.', text: '迹象；根据' }],
+    examples: [{ sentence: 'There is strong evidence to support the idea.', translation: '有充分证据支持这个观点。' }],
+    collocations: [{ phrase: 'evidence of', meaning: '……的证据/迹象', example: 'The report found evidence of progress.', translation: '报告发现了取得进展的迹象。' }, { phrase: 'in evidence', meaning: '显眼；明显', example: 'Her experience was much in evidence.', translation: '她的经验显而易见。' }],
+    derivatives: [{ word: 'evident', partOfSpeech: 'adj.', meaning: '明显的；明白的' }, { word: 'evidently', partOfSpeech: 'adv.', meaning: '显然；明显地' }],
+    synonyms: ['proof 证据；证明', 'indication 迹象；表明', 'testimony 证词；证据'],
+    confusables: [{ word: 'evidence', meaning: 'n. 证据；迹象' }, { word: 'evident', meaning: 'adj. 明显的' }],
+  },
+  'cet4-focus': {
+    meanings: [{ partOfSpeech: 'n.', text: '焦点；重点', highFrequency: true }, { partOfSpeech: 'v.', text: '集中（注意力）；聚焦', highFrequency: true }],
+    examples: [{ sentence: 'Try to focus on one task at a time.', translation: '试着一次专注于一项任务。' }],
+    collocations: [{ phrase: 'focus on', meaning: '集中于；着重于', example: 'The discussion focused on education.', translation: '讨论集中在教育问题上。' }, { phrase: 'the focus of attention', meaning: '注意力的焦点', example: 'Safety is the focus of attention.', translation: '安全是关注的重点。' }],
+    derivatives: [{ word: 'focused', partOfSpeech: 'adj.', meaning: '专注的；目标明确的' }, { word: 'focal', partOfSpeech: 'adj.', meaning: '焦点的；核心的' }],
+    synonyms: ['concentrate 集中；专注', '中心点 centre of attention', 'emphasize 强调'],
+    confusables: [{ word: 'focus', meaning: 'n. 焦点；v. 集中' }, { word: 'form', meaning: 'n. 形式；v. 形成' }],
+  },
+  'cet4-improve': {
+    meanings: [{ partOfSpeech: 'v.', text: '改善；改进', highFrequency: true }, { partOfSpeech: 'v.', text: '提高；变得更好', highFrequency: true }],
+    examples: [{ sentence: 'A little practice every day will improve your fluency.', translation: '每天练习一点会提升你的流利度。' }],
+    collocations: [{ phrase: 'improve the quality', meaning: '提高质量', example: 'The changes improved the quality of service.', translation: '这些改变提高了服务质量。' }, { phrase: 'improve rapidly', meaning: '迅速改善/进步', example: 'Her English has improved rapidly.', translation: '她的英语进步很快。' }],
+    derivatives: [{ word: 'improvement', partOfSpeech: 'n.', meaning: '改善；改进之处' }, { word: 'improved', partOfSpeech: 'adj.', meaning: '改良的；改善的' }],
+    synonyms: ['enhance 提高；增强', 'better 改善；胜过', 'refine 改进；精炼'],
+    confusables: [{ word: 'improve', meaning: 'v. 改善；提高' }, { word: 'approve', meaning: 'v. 赞成；批准' }],
+  },
+  'cet6-abstract': {
+    meanings: [{ partOfSpeech: 'adj.', text: '抽象的；理论上的', highFrequency: true }, { partOfSpeech: 'n.', text: '摘要；概要', highFrequency: true }, { partOfSpeech: 'v.', text: '提取；抽象出' }],
+    examples: [{ sentence: 'The article begins with an abstract of the research.', translation: '文章开头是研究摘要。' }],
+    collocations: [{ phrase: 'abstract concept', meaning: '抽象概念', example: 'Freedom is an abstract concept.', translation: '自由是一个抽象概念。' }, { phrase: 'an abstract of', meaning: '……的摘要', example: 'Please read the abstract of the report.', translation: '请阅读这份报告的摘要。' }],
+    derivatives: [{ word: 'abstraction', partOfSpeech: 'n.', meaning: '抽象；抽象概念' }, { word: 'abstractly', partOfSpeech: 'adv.', meaning: '抽象地' }],
+    synonyms: ['theoretical 理论的', 'summary 摘要', 'extract 提取；摘录'],
+    confusables: [{ word: 'abstract', meaning: 'adj. 抽象的；n. 摘要' }, { word: 'attract', meaning: 'v. 吸引' }],
+  },
+  'cet6-advocate': {
+    meanings: [{ partOfSpeech: 'v.', text: '提倡；主张', highFrequency: true }, { partOfSpeech: 'n.', text: '拥护者；倡导者', highFrequency: true }, { partOfSpeech: 'n.', text: '辩护律师' }],
+    examples: [{ sentence: 'Many scientists advocate immediate action on climate change.', translation: '许多科学家提倡立即采取气候行动。' }],
+    collocations: [{ phrase: 'advocate doing sth.', meaning: '提倡做某事', example: 'Experts advocate reducing waste.', translation: '专家提倡减少浪费。' }, { phrase: 'an advocate of', meaning: '……的倡导者', example: 'She is an advocate of equal education.', translation: '她是平等教育的倡导者。' }],
+    derivatives: [{ word: 'advocacy', partOfSpeech: 'n.', meaning: '倡导；拥护' }, { word: 'advocate', partOfSpeech: 'n.', meaning: '倡导者；律师' }],
+    synonyms: ['recommend 推荐；建议', 'support 支持', 'champion 倡导；捍卫'],
+    confusables: [{ word: 'advocate', meaning: 'v. 提倡；n. 倡导者' }, { word: 'educate', meaning: 'v. 教育' }],
+  },
+  'cet6-consensus': {
+    meanings: [{ partOfSpeech: 'n.', text: '共识；一致意见', highFrequency: true }, { partOfSpeech: 'n.', text: '（意见等的）一致' }],
+    examples: [{ sentence: 'The team reached a consensus after a long discussion.', translation: '经过长时间讨论，团队达成了共识。' }],
+    collocations: [{ phrase: 'reach a consensus', meaning: '达成共识', example: 'The group reached a consensus on the proposal.', translation: '小组就这项提议达成了共识。' }, { phrase: 'a consensus view', meaning: '一致的观点', example: 'There is a consensus view among researchers.', translation: '研究人员之间存在一致观点。' }],
+    derivatives: [{ word: 'consensual', partOfSpeech: 'adj.', meaning: '经双方同意的' }, { word: 'consensus-based', partOfSpeech: 'adj.', meaning: '以共识为基础的' }],
+    synonyms: ['agreement 同意；一致', 'accord 一致；协议', 'unity 团结；一致'],
+    confusables: [{ word: 'consensus', meaning: 'n. 共识' }, { word: 'conscience', meaning: 'n. 良心' }],
+  },
+  'cet6-diminish': {
+    meanings: [{ partOfSpeech: 'v.', text: '减少；降低', highFrequency: true }, { partOfSpeech: 'v.', text: '削弱；贬低', highFrequency: true }],
+    examples: [{ sentence: 'The new evidence does not diminish her contribution.', translation: '新证据并没有削弱她的贡献。' }],
+    collocations: [{ phrase: 'diminish in size', meaning: '尺寸/规模缩小', example: 'The lake has diminished in size over time.', translation: '随着时间推移，湖泊面积缩小了。' }, { phrase: 'diminish the importance', meaning: '降低重要性', example: 'Nothing can diminish the importance of trust.', translation: '没有什么能降低信任的重要性。' }],
+    derivatives: [{ word: 'diminution', partOfSpeech: 'n.', meaning: '减少；缩小' }, { word: 'diminutive', partOfSpeech: 'adj.', meaning: '很小的；微型的' }],
+    synonyms: ['decrease 减少', 'reduce 降低；减少', 'lessen 减轻；减少'],
+    confusables: [{ word: 'diminish', meaning: 'v. 减少；削弱' }, { word: 'diminutive', meaning: 'adj. 微小的' }],
+  },
+  'cet6-inevitable': {
+    meanings: [{ partOfSpeech: 'adj.', text: '不可避免的；必然发生的', highFrequency: true }, { partOfSpeech: 'adj.', text: '必然的；总会发生的' }],
+    examples: [{ sentence: 'Some change is inevitable as a company grows.', translation: '公司发展过程中一些变化不可避免。' }],
+    collocations: [{ phrase: 'inevitable result', meaning: '必然结果', example: 'Failure is not the inevitable result.', translation: '失败并非必然结果。' }, { phrase: 'it is inevitable that', meaning: '……是不可避免的', example: 'It is inevitable that opinions will differ.', translation: '意见出现分歧是不可避免的。' }],
+    derivatives: [{ word: 'inevitably', partOfSpeech: 'adv.', meaning: '不可避免地' }, { word: 'inevitability', partOfSpeech: 'n.', meaning: '必然性' }],
+    synonyms: ['unavoidable 不可避免的', 'certain 确定的；必然的', 'inescapable 逃避不了的'],
+    confusables: [{ word: 'inevitable', meaning: 'adj. 不可避免的' }, { word: 'evident', meaning: 'adj. 明显的' }],
+  },
+  'cet6-integrity': {
+    meanings: [{ partOfSpeech: 'n.', text: '正直；诚实', highFrequency: true }, { partOfSpeech: 'n.', text: '完整；完整性', highFrequency: true }],
+    examples: [{ sentence: 'She is respected for her honesty and integrity.', translation: '她因诚实正直而受到尊敬。' }],
+    collocations: [{ phrase: 'personal integrity', meaning: '个人操守', example: 'The position requires personal integrity.', translation: '这个职位要求具备良好的个人操守。' }, { phrase: 'structural integrity', meaning: '结构完整性', example: 'Engineers checked the bridge’s structural integrity.', translation: '工程师检查了桥梁的结构完整性。' }],
+    derivatives: [{ word: 'integral', partOfSpeech: 'adj.', meaning: '必需的；构成整体的' }, { word: 'integrity', partOfSpeech: 'n.', meaning: '正直；完整性' }],
+    synonyms: ['honesty 诚实', 'uprightness 正直', 'wholeness 完整'],
+    confusables: [{ word: 'integrity', meaning: 'n. 正直；完整性' }, { word: 'integer', meaning: 'n. 整数' }],
+  },
+  'cet6-notion': {
+    meanings: [{ partOfSpeech: 'n.', text: '观念；概念', highFrequency: true }, { partOfSpeech: 'n.', text: '看法；想法', highFrequency: true }, { partOfSpeech: 'n.', text: '（不明确的）理解' }],
+    examples: [{ sentence: 'I disagree with the notion that success comes overnight.', translation: '我不认同成功一蹴而就的观念。' }],
+    collocations: [{ phrase: 'the notion of', meaning: '……的概念', example: 'The notion of time differs across cultures.', translation: '不同文化对时间的概念各不相同。' }, { phrase: 'have no notion', meaning: '不知道；没想到', example: 'I had no notion that it was so late.', translation: '我没想到已经这么晚了。' }],
+    derivatives: [{ word: 'notional', partOfSpeech: 'adj.', meaning: '概念上的；想象的' }, { word: 'notionally', partOfSpeech: 'adv.', meaning: '概念上' }],
+    synonyms: ['idea 想法；观念', 'concept 概念', 'belief 信念；看法'],
+    confusables: [{ word: 'notion', meaning: 'n. 观念；看法' }, { word: 'motion', meaning: 'n. 运动；提议' }],
+  },
+  'cet6-substantial': {
+    meanings: [{ partOfSpeech: 'adj.', text: '大量的；可观的', highFrequency: true }, { partOfSpeech: 'adj.', text: '实质的；重要的', highFrequency: true }, { partOfSpeech: 'adj.', text: '结实的；坚固的' }],
+    examples: [{ sentence: 'The project requires a substantial investment of time.', translation: '这个项目需要投入大量时间。' }],
+    collocations: [{ phrase: 'substantial evidence', meaning: '充分的证据', example: 'There is substantial evidence for the theory.', translation: '有大量证据支持这个理论。' }, { phrase: 'a substantial amount of', meaning: '大量的', example: 'The repair will take a substantial amount of time.', translation: '这项维修需要花费大量时间。' }],
+    derivatives: [{ word: 'substantially', partOfSpeech: 'adv.', meaning: '大幅度地；实质上' }, { word: 'substance', partOfSpeech: 'n.', meaning: '物质；实质' }],
+    synonyms: ['considerable 相当大的', 'significant 重要的；可观的', 'solid 结实的；可靠的'],
+    confusables: [{ word: 'substantial', meaning: 'adj. 大量的；实质的' }, { word: 'substance', meaning: 'n. 物质；实质' }],
+  },
+  'cet6-sustain': {
+    meanings: [{ partOfSpeech: 'v.', text: '维持；使持续', highFrequency: true }, { partOfSpeech: 'v.', text: '支撑；承受', highFrequency: true }, { partOfSpeech: 'v.', text: '遭受（损失、伤害等）' }],
+    examples: [{ sentence: 'The local economy cannot sustain rapid growth forever.', translation: '当地经济无法永远维持高速增长。' }],
+    collocations: [{ phrase: 'sustain growth', meaning: '维持增长', example: 'The company needs new ideas to sustain growth.', translation: '公司需要新想法来维持增长。' }, { phrase: 'sustain an injury', meaning: '受伤', example: 'He sustained a minor injury during the game.', translation: '他在比赛中受了轻伤。' }],
+    derivatives: [{ word: 'sustainable', partOfSpeech: 'adj.', meaning: '可持续的' }, { word: 'sustainability', partOfSpeech: 'n.', meaning: '可持续性' }],
+    synonyms: ['maintain 维持', 'support 支撑；支持', 'endure 忍受；持续'],
+    confusables: [{ word: 'sustain', meaning: 'v. 维持；支撑' }, { word: 'contain', meaning: 'v. 包含；控制' }],
+  },
+  'cet6-undermine': {
+    meanings: [{ partOfSpeech: 'v.', text: '逐渐削弱；损害', highFrequency: true }, { partOfSpeech: 'v.', text: '暗中破坏；逐步动摇' }],
+    examples: [{ sentence: 'A lack of sleep can undermine your concentration.', translation: '睡眠不足会削弱你的注意力。' }],
+    collocations: [{ phrase: 'undermine confidence', meaning: '削弱信心', example: 'Repeated delays undermined public confidence.', translation: '一再延期削弱了公众的信心。' }, { phrase: 'undermine authority', meaning: '损害权威', example: 'Such actions may undermine the law.', translation: '这种行为可能损害法律的权威。' }],
+    derivatives: [{ word: 'undermining', partOfSpeech: 'adj.', meaning: '起破坏作用的' }, { word: 'undermined', partOfSpeech: 'adj.', meaning: '被削弱的' }],
+    synonyms: ['weaken 削弱', 'erode 逐渐损害', 'sabotage 暗中破坏'],
+    confusables: [{ word: 'undermine', meaning: 'v. 逐渐削弱；暗中破坏' }, { word: 'underline', meaning: 'v. 在……下面画线；强调' }],
+  },
+}

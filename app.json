@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "EasyWord",
+    "slug": "easyword",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "icon": "./assets/icon.png",
+    "description": "EasyWord —— 轻松、持续地记住每一个单词。间隔重复 + 发音 + 学习记录，数据全部保存在本地。",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f5f4ef"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.easyword.learning",
+      "buildNumber": "1"
+    },
+    "android": {
+      "package": "com.easyword.learning",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#607967"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "favicon": "./assets/favicon.png",
+      "themeColor": "#607967",
+      "backgroundColor": "#f3f2ed"
+    }
+  }
+}
