@@ -1,0 +1,20 @@
+{
+  "id": "travel",
+  "title": "旅行英语",
+  "shortTitle": "旅行",
+  "description": "出行、住宿与问路场景入门词汇，原创释义与例句。",
+  "words": [
+    { "id": "travel-accommodation", "book": "travel", "word": "accommodation", "phonetic": "/əˌkɑːməˈdeɪʃn/", "partOfSpeech": "n.", "meaning": "住宿；膳宿", "example": "We booked our accommodation near the station.", "translation": "我们预订了车站附近的住宿。" },
+    { "id": "travel-board", "book": "travel", "word": "board", "phonetic": "/bɔːrd/", "partOfSpeech": "v./n.", "meaning": "登上（交通工具）；木板", "example": "Passengers should board the train through gate four.", "translation": "乘客请从四号闸口上车。" },
+    { "id": "travel-destination", "book": "travel", "word": "destination", "phonetic": "/ˌdestɪˈneɪʃn/", "partOfSpeech": "n.", "meaning": "目的地；终点", "example": "Our next destination is a small town by the sea.", "translation": "我们的下一个目的地是海边的一座小镇。" },
+    { "id": "travel-departure", "book": "travel", "word": "departure", "phonetic": "/dɪˈpɑːrtʃər/", "partOfSpeech": "n.", "meaning": "出发；离开", "example": "The departure time is printed on your ticket.", "translation": "出发时间印在你的车票上。" },
+    { "id": "travel-itinerary", "book": "travel", "word": "itinerary", "phonetic": "/aɪˈtɪnəreri/", "partOfSpeech": "n.", "meaning": "行程；旅行计划", "example": "I sent our itinerary to everyone in the group.", "translation": "我把行程发给了团队里的每个人。" },
+    { "id": "travel-luggage", "book": "travel", "word": "luggage", "phonetic": "/ˈlʌɡɪdʒ/", "partOfSpeech": "n.", "meaning": "行李", "example": "You can leave your luggage at the front desk.", "translation": "你可以把行李寄存在前台。" },
+    { "id": "travel-platform", "book": "travel", "word": "platform", "phonetic": "/ˈplætfɔːrm/", "partOfSpeech": "n.", "meaning": "站台；平台", "example": "The train to the city leaves from platform six.", "translation": "开往市区的列车从六号站台发车。" },
+    { "id": "travel-reservation", "book": "travel", "word": "reservation", "phonetic": "/ˌrezərˈveɪʃn/", "partOfSpeech": "n.", "meaning": "预订；预约", "example": "I have a reservation under the name Chen.", "translation": "我用陈这个姓氏预订了位置。" },
+    { "id": "travel-route", "book": "travel", "word": "route", "phonetic": "/ruːt/", "partOfSpeech": "n.", "meaning": "路线；航线", "example": "This route offers a view of the mountains.", "translation": "这条路线可以欣赏到山景。" },
+    { "id": "travel-souvenir", "book": "travel", "word": "souvenir", "phonetic": "/ˌsuːvəˈnɪr/", "partOfSpeech": "n.", "meaning": "纪念品", "example": "She bought a small souvenir for her friend.", "translation": "她给朋友买了一件小纪念品。" },
+    { "id": "travel-transfer", "book": "travel", "word": "transfer", "phonetic": "/trænsˈfɜːr/", "partOfSpeech": "n./v.", "meaning": "换乘；转移", "example": "You need to transfer to the blue line downtown.", "translation": "你需要在市中心换乘蓝线。" },
+    { "id": "travel-venue", "book": "travel", "word": "venue", "phonetic": "/ˈvenjuː/", "partOfSpeech": "n.", "meaning": "场所；举办地点", "example": "The visitor center can tell you about nearby venues.", "translation": "游客中心可以告诉你附近有哪些景点场所。" }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "id": "business",
+  "title": "商务英语",
+  "shortTitle": "商务",
+  "description": "会议、协作与职场沟通入门词汇，原创释义与例句。",
+  "words": [
+    { "id": "business-agenda", "book": "business", "word": "agenda", "phonetic": "/əˈdʒendə/", "partOfSpeech": "n.", "meaning": "议程；待办事项", "example": "The first item on the agenda is the project timeline.", "translation": "议程的第一项是项目时间安排。" },
+    { "id": "business-brief", "book": "business", "word": "brief", "phonetic": "/briːf/", "partOfSpeech": "n./adj./v.", "meaning": "简报；简短的；向……说明", "example": "Please give the team a brief update after lunch.", "translation": "请在午饭后给团队做个简短更新。" },
+    { "id": "business-collaborate", "book": "business", "word": "collaborate", "phonetic": "/kəˈlæbəreɪt/", "partOfSpeech": "v.", "meaning": "合作；协作", "example": "The design and sales teams collaborate on each launch.", "translation": "设计和销售团队共同协作每次产品发布。" },
+    { "id": "business-deadline", "book": "business", "word": "deadline", "phonetic": "/ˈdedlaɪn/", "partOfSpeech": "n.", "meaning": "截止日期；最后期限", "example": "We finished the proposal before the deadline.", "translation": "我们在截止日期前完成了提案。" },
+    { "id": "business-estimate", "book": "business", "word": "estimate", "phonetic": "/ˈestɪmeɪt/", "partOfSpeech": "n./v.", "meaning": "估算；估计", "example": "Could you estimate the cost of the update?", "translation": "你能估算一下这次更新的成本吗？" },
+    { "id": "business-feedback", "book": "business", "word": "feedback", "phonetic": "/ˈfiːdbæk/", "partOfSpeech": "n.", "meaning": "反馈；意见", "example": "We use customer feedback to improve the service.", "translation": "我们利用客户反馈来改进服务。" },
+    { "id": "business-negotiate", "book": "business", "word": "negotiate", "phonetic": "/nɪˈɡoʊʃieɪt/", "partOfSpeech": "v.", "meaning": "协商；谈判", "example": "Both sides met to negotiate a new agreement.", "translation": "双方会面协商一份新协议。" },
+    { "id": "business-priority", "book": "business", "word": "priority", "phonetic": "/praɪˈɔːrəti/", "partOfSpeech": "n.", "meaning": "优先事项；优先权", "example": "Safety remains our highest priority.", "translation": "安全仍然是我们的首要任务。" },
+    { "id": "business-proposal", "book": "business", "word": "proposal", "phonetic": "/prəˈpoʊzl/", "partOfSpeech": "n.", "meaning": "提案；建议", "example": "The manager reviewed the proposal with the team.", "translation": "经理和团队一起审阅了这份提案。" },
+    { "id": "business-revenue", "book": "business", "word": "revenue", "phonetic": "/ˈrevənuː/", "partOfSpeech": "n.", "meaning": "收入；收益", "example": "Online sales now provide half of the company's revenue.", "translation": "线上销售现在贡献了公司一半的收入。" },
+    { "id": "business-schedule", "book": "business", "word": "schedule", "phonetic": "/ˈskedʒuːl/", "partOfSpeech": "n./v.", "meaning": "日程；安排时间", "example": "Let's schedule a call for Thursday morning.", "translation": "我们把电话会议安排在周四上午吧。" },
+    { "id": "business-strategy", "book": "business", "word": "strategy", "phonetic": "/ˈstrætədʒi/", "partOfSpeech": "n.", "meaning": "策略；计划", "example": "The team developed a strategy for entering a new market.", "translation": "团队制定了进入新市场的策略。" }
+  ]
+}

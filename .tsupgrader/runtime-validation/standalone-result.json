@@ -1,0 +1,137 @@
+{
+  "planHash": "0036d596aba30b95c6e0c77a2a7b8c087f753075adaeed695a4fca077b48d9d3",
+  "phase": "standalone",
+  "recordedAtUtc": "2026-10-27T14:46:16.7972691Z",
+  "retryCount": 0,
+  "resetBaseline": false,
+  "complete": true,
+  "result": {
+    "setupSucceeded": true,
+    "setupDurationMs": 17494,
+    "setupFailureOutput": null,
+    "assertions": [
+      {
+        "name": "tsc-no-emit",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "npm notice run easyword@1.0.0 typecheck\r\nnpm notice run tsc --noEmit\r\n",
+        "durationMs": 2171
+      },
+      {
+        "name": "web-export",
+        "kind": "process",
+        "verificationMethod": "exit-code",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "npm notice run easyword@1.0.0 build:web\r\nnpm notice run expo export --platform web\r\nStarting Metro Bundler\r\nError while reading cache, falling back to a full crawl:\r\n Error: Unable to deserialize cloned data due to invalid or unsupported version.\r\n    at deserialize (node:v8:468:7)\r\n    at DiskCacheManager.read (C:\\Users\\MR\\projects\\EasyWord\\node_modules\\metro-file-map\\src\\cache\\DiskCacheManager.js:60:33)\r\n    at FileMap.read (C:\\Users\\MR\\projects\\EasyWord\\node_modules\\metro-file-map\\src\\index.js:284:14)\r\n    at C:\\Users\\MR\\projects\\EasyWord\\node_modules\\metro-file-map\\src\\index.js:202:25\r\n    at DependencyGraph.ready (C:\\Users\\MR\\projects\\EasyWord\\node_modules\\metro\\src\\node-haste\\DependencyGraph.js:88:5)\r\nWeb Bundled 130ms node_modules\\expo\\AppEntry.js (173 modules)\r\n\r\n\u203A web bundles (1):\r\n_expo/static/js/web/AppEntry-4442aa975022fd6a4ad9b2959cd778de.js (440 kB)\r\n\r\n\u203A Files (3):\r\nfavicon.ico (14.5 kB)\r\nindex.html (1.26 kB)\r\nmetadata.json (49 B)\r\n\r\nExported: dist\r\n",
+        "durationMs": 5794
+      },
+      {
+        "name": "tests-pass",
+        "kind": "process",
+        "verificationMethod": "test-results",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": 0,
+        "outputSample": "npm notice run easyword@1.0.0 test\r\nnpm notice run node --test\r\n\u2714 all five word books have stable ids and valid word records (1.0207ms)\r\n\u2714 existing sample word ids remain intact for saved progress (0.149ms)\r\n\u2139 tests 2\r\n\u2139 suites 0\r\n\u2139 pass 2\r\n\u2139 fail 0\r\n\u2139 cancelled 0\r\n\u2139 skipped 0\r\n\u2139 todo 0\r\n\u2139 duration_ms 103.9537\r\n",
+        "durationMs": 619,
+        "testResults": {
+          "testFramework": "unknown",
+          "runnerDetectedFrom": "none",
+          "testsTotal": 0,
+          "testsPassed": 0,
+          "testsFailed": 0,
+          "testsSkipped": 0,
+          "parseFailed": true
+        }
+      },
+      {
+        "name": "web-serves-home",
+        "kind": "http-probe",
+        "verificationMethod": "http-status",
+        "passed": true,
+        "timedOut": false,
+        "skipped": false,
+        "skippedReason": null,
+        "exitCode": null,
+        "outputSample": "HTTP 200\n\u003C!DOCTYPE html\u003E\n\u003Chtml lang=\u0022en\u0022\u003E\n  \u003Chead\u003E\n    \u003Cmeta charset=\u0022utf-8\u0022 /\u003E\n    \u003Cmeta httpEquiv=\u0022X-UA-Compatible\u0022 content=\u0022IE=edge\u0022 /\u003E\n    \u003Cmeta name=\u0022viewport\u0022 content=\u0022width=device-width, initial-scale=1, shrink-to-fit=no\u0022 /\u003E\n    \u003Ctitle\u003EEasyWord\u003C/title\u003E\n    \u003C!-- The \u0060react-native-web\u0060 recommended style reset: https://necolas.github.io/react-native-web/docs/setup/#root-element --\u003E\n    \u003Cstyle id=\u0022expo-reset\u0022\u003E\n      /* These styles make the body full-height */\n      html,\n      body {\n        height: 100%;\n      }\n      /* These styles disable body scrolling if you are using \u003CScrollView\u003E */\n      body {\n        overflow: hidden;\n      }\n      /* These styles make the root element full-height */\n      #root {\n        display: flex;\n        height: 100%;\n        flex: 1;\n      }\n    \u003C/style\u003E\n  \u003Cmeta name=\u0022theme-color\u0022 content=\u0022#607967\u0022\u003E\n\u003C/head\u003E\n\n  \u003Cbody\u003E\n    \u003C!-- Use static rendering with Expo Router to support running without JavaScript. --\u003E\n    \u003Cnoscript\u003E\n      You need to enable JavaScript to run this app.\n    \u003C/noscript\u003E\n    \u003C!-- The root element for your Expo app. --\u003E\n    \u003Cdiv id=\u0022root\u0022\u003E\u003C/div\u003E\n  \u003Cscript src=\u0022/node_modules/expo/AppEntry.bundle?platform=web\u0026dev=true\u0026hot=false\u0026lazy=true\u0026transform.engine=hermes\u0026transform.routerRoot=app\u0026unstable_transformProfile=hermes-stable\u0022 defer\u003E\u003C/script\u003E\u003C/body\u003E\n\u003C/html\u003E\n\n--- server output ---\nnpm notice run easyword@1.0.0 web\r\nnpm notice run expo start --web --port 8081 --host localhost\r\nStarting project at C:\\Users\\MR\\projects\\EasyWord\r\n\u203A Port 8081 is being used by another process\r\nInput is required, but \u0027npx expo\u0027 is in non-interactive mode.\r\nRequired input:\r\n\u003E Use port 8082 instead?\r\n\u203A Skipping dev server\r\n",
+        "durationMs": 4893
+      }
+    ],
+    "executions": [
+      {
+        "source": "setup[0]",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "ci"
+        ],
+        "cwd": "C:\\Users\\MR\\projects\\EasyWord",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tsc-no-emit",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "typecheck"
+        ],
+        "cwd": "C:\\Users\\MR\\projects\\EasyWord",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "web-export",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "build:web"
+        ],
+        "cwd": "C:\\Users\\MR\\projects\\EasyWord",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "tests-pass",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "test"
+        ],
+        "cwd": "C:\\Users\\MR\\projects\\EasyWord",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      },
+      {
+        "source": "web-serves-home",
+        "resolvedExecutable": "C:\\Program Files\\nodejs\\npm.CMD",
+        "args": [
+          "run",
+          "web",
+          "--",
+          "--port",
+          "8081",
+          "--host",
+          "localhost"
+        ],
+        "cwd": "C:\\Users\\MR\\projects\\EasyWord",
+        "env": {},
+        "prependPath": [],
+        "platform": "win32"
+      }
+    ]
+  }
+}

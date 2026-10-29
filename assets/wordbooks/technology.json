@@ -1,0 +1,20 @@
+{
+  "id": "technology",
+  "title": "科技英语",
+  "shortTitle": "科技",
+  "description": "数字产品与科技阅读入门词汇，原创释义与例句。",
+  "words": [
+    { "id": "technology-algorithm", "book": "technology", "word": "algorithm", "phonetic": "/ˈælɡərɪðəm/", "partOfSpeech": "n.", "meaning": "算法；运算规则", "example": "The app uses an algorithm to sort the results.", "translation": "这个应用使用算法对结果进行排序。" },
+    { "id": "technology-application", "book": "technology", "word": "application", "phonetic": "/ˌæplɪˈkeɪʃn/", "partOfSpeech": "n.", "meaning": "应用程序；应用", "example": "This application helps users track their daily habits.", "translation": "这个应用帮助用户记录日常习惯。" },
+    { "id": "technology-device", "book": "technology", "word": "device", "phonetic": "/dɪˈvaɪs/", "partOfSpeech": "n.", "meaning": "设备；装置", "example": "Keep the device away from water while charging.", "translation": "充电时请让设备远离水。" },
+    { "id": "technology-digital", "book": "technology", "word": "digital", "phonetic": "/ˈdɪdʒɪtl/", "partOfSpeech": "adj.", "meaning": "数字的；数码的", "example": "The library offers access to digital magazines.", "translation": "图书馆提供数字杂志的阅读服务。" },
+    { "id": "technology-feature", "book": "technology", "word": "feature", "phonetic": "/ˈfiːtʃər/", "partOfSpeech": "n./v.", "meaning": "功能；以……为特色", "example": "A useful feature lets you save words for later.", "translation": "一个实用功能可以让你把单词保存起来以后复习。" },
+    { "id": "technology-network", "book": "technology", "word": "network", "phonetic": "/ˈnetwɜːrk/", "partOfSpeech": "n./v.", "meaning": "网络；联网", "example": "The device connects to the network automatically.", "translation": "这台设备会自动连接网络。" },
+    { "id": "technology-privacy", "book": "technology", "word": "privacy", "phonetic": "/ˈpraɪvəsi/", "partOfSpeech": "n.", "meaning": "隐私；私密", "example": "The service gives users control over their privacy.", "translation": "这项服务让用户能够管理自己的隐私。" },
+    { "id": "technology-process", "book": "technology", "word": "process", "phonetic": "/ˈprɑːses/", "partOfSpeech": "n./v.", "meaning": "过程；处理", "example": "The computer can process large files quickly.", "translation": "这台电脑可以快速处理大型文件。" },
+    { "id": "technology-secure", "book": "technology", "word": "secure", "phonetic": "/sɪˈkjʊr/", "partOfSpeech": "adj./v.", "meaning": "安全的；保护；获得", "example": "Use a secure password for your account.", "translation": "请为账户使用安全的密码。" },
+    { "id": "technology-software", "book": "technology", "word": "software", "phonetic": "/ˈsɔːftwer/", "partOfSpeech": "n.", "meaning": "软件；程序", "example": "The software receives regular updates.", "translation": "这款软件会定期更新。" },
+    { "id": "technology-update", "book": "technology", "word": "update", "phonetic": "/ˌʌpˈdeɪt/", "partOfSpeech": "n./v.", "meaning": "更新；最新消息", "example": "Please update the app to get the latest features.", "translation": "请更新应用以获取最新功能。" },
+    { "id": "technology-user", "book": "technology", "word": "user", "phonetic": "/ˈjuːzər/", "partOfSpeech": "n.", "meaning": "用户；使用者", "example": "The design was tested with new users.", "translation": "这项设计经过了新用户测试。" }
+  ]
+}

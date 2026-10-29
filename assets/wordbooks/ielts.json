@@ -1,0 +1,20 @@
+{
+  "id": "ielts",
+  "title": "雅思",
+  "shortTitle": "IELTS",
+  "description": "雅思常见话题入门词汇。原创释义与例句，非官方考纲词表。",
+  "words": [
+    { "id": "ielts-environment", "book": "ielts", "word": "environment", "phonetic": "/ɪnˈvaɪrənmənt/", "partOfSpeech": "n.", "meaning": "环境；周围状况", "example": "A clean environment benefits everyone in the community.", "translation": "清洁的环境让社区中的每个人受益。" },
+    { "id": "ielts-emission", "book": "ielts", "word": "emission", "phonetic": "/ɪˈmɪʃn/", "partOfSpeech": "n.", "meaning": "排放；散发物", "example": "Public transport can help reduce carbon emissions.", "translation": "公共交通有助于减少碳排放。" },
+    { "id": "ielts-renewable", "book": "ielts", "word": "renewable", "phonetic": "/rɪˈnuːəbl/", "partOfSpeech": "adj.", "meaning": "可再生的", "example": "The island is investing in renewable energy.", "translation": "这座岛正在投资可再生能源。" },
+    { "id": "ielts-urban", "book": "ielts", "word": "urban", "phonetic": "/ˈɜːrbən/", "partOfSpeech": "adj.", "meaning": "城市的；都市的", "example": "Urban parks offer residents a place to relax.", "translation": "城市公园为居民提供了休息的地方。" },
+    { "id": "ielts-rural", "book": "ielts", "word": "rural", "phonetic": "/ˈrʊrəl/", "partOfSpeech": "adj.", "meaning": "乡村的；农村的", "example": "Reliable internet can support rural education.", "translation": "稳定的网络可以支持乡村教育。" },
+    { "id": "ielts-consumption", "book": "ielts", "word": "consumption", "phonetic": "/kənˈsʌmpʃn/", "partOfSpeech": "n.", "meaning": "消费；消耗量", "example": "The new design lowers household energy consumption.", "translation": "这种新设计降低了家庭能源消耗。" },
+    { "id": "ielts-access", "book": "ielts", "word": "access", "phonetic": "/ˈækses/", "partOfSpeech": "n./v.", "meaning": "使用机会；进入；获取", "example": "More students now have access to online courses.", "translation": "现在有更多学生可以使用在线课程。" },
+    { "id": "ielts-approach", "book": "ielts", "word": "approach", "phonetic": "/əˈproʊtʃ/", "partOfSpeech": "n./v.", "meaning": "方法；接近；着手处理", "example": "The school adopted a practical approach to language learning.", "translation": "这所学校采用了实用的语言学习方法。" },
+    { "id": "ielts-impact", "book": "ielts", "word": "impact", "phonetic": "/ˈɪmpækt/", "partOfSpeech": "n./v.", "meaning": "影响；产生影响", "example": "Tourism has a major impact on the local economy.", "translation": "旅游业对当地经济有重要影响。" },
+    { "id": "ielts-resource", "book": "ielts", "word": "resource", "phonetic": "/ˈriːsɔːrs/", "partOfSpeech": "n.", "meaning": "资源；资料", "example": "Water is a valuable resource in dry regions.", "translation": "在干旱地区，水是一种珍贵资源。" },
+    { "id": "ielts-policy", "book": "ielts", "word": "policy", "phonetic": "/ˈpɑːləsi/", "partOfSpeech": "n.", "meaning": "政策；方针", "example": "The city introduced a policy to improve road safety.", "translation": "这座城市出台了一项改善道路安全的政策。" },
+    { "id": "ielts-beneficial", "book": "ielts", "word": "beneficial", "phonetic": "/ˌbenɪˈfɪʃl/", "partOfSpeech": "adj.", "meaning": "有益的；有利的", "example": "Regular exercise is beneficial to both body and mind.", "translation": "规律运动对身心都有益。" }
+  ]
+}

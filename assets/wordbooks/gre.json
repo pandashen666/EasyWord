@@ -1,0 +1,20 @@
+{
+  "id": "gre",
+  "title": "考研英语",
+  "shortTitle": "考研",
+  "description": "考研阅读常见学术词汇入门。原创释义与例句，非官方考纲词表。",
+  "words": [
+    { "id": "gre-analyze", "book": "gre", "word": "analyze", "phonetic": "/ˈænəlaɪz/", "partOfSpeech": "v.", "meaning": "分析；解析", "example": "The study analyzes how people make decisions.", "translation": "这项研究分析了人们如何做决定。" },
+    { "id": "gre-assume", "book": "gre", "word": "assume", "phonetic": "/əˈsuːm/", "partOfSpeech": "v.", "meaning": "假设；承担", "example": "We should not assume that every result is reliable.", "translation": "我们不应假设每个结果都可靠。" },
+    { "id": "gre-context", "book": "gre", "word": "context", "phonetic": "/ˈkɑːntekst/", "partOfSpeech": "n.", "meaning": "背景；上下文", "example": "A word can have a different meaning in another context.", "translation": "一个词在另一种语境中可能有不同含义。" },
+    { "id": "gre-derive", "book": "gre", "word": "derive", "phonetic": "/dɪˈraɪv/", "partOfSpeech": "v.", "meaning": "获得；源自", "example": "The team derived a useful method from its early experiments.", "translation": "团队从早期实验中总结出一种有用的方法。" },
+    { "id": "gre-establish", "book": "gre", "word": "establish", "phonetic": "/ɪˈstæblɪʃ/", "partOfSpeech": "v.", "meaning": "建立；证实", "example": "Several tests helped establish the cause of the problem.", "translation": "几项测试帮助查明了问题的原因。" },
+    { "id": "gre-factor", "book": "gre", "word": "factor", "phonetic": "/ˈfæktər/", "partOfSpeech": "n.", "meaning": "因素；要素", "example": "Cost is only one factor in the final decision.", "translation": "成本只是最终决定中的一个因素。" },
+    { "id": "gre-indicate", "book": "gre", "word": "indicate", "phonetic": "/ˈɪndɪkeɪt/", "partOfSpeech": "v.", "meaning": "表明；指出", "example": "The latest figures indicate a gradual improvement.", "translation": "最新数据表明情况正在逐步改善。" },
+    { "id": "gre-interpret", "book": "gre", "word": "interpret", "phonetic": "/ɪnˈtɜːrprɪt/", "partOfSpeech": "v.", "meaning": "解释；诠释", "example": "Readers may interpret the same passage in different ways.", "translation": "读者可能以不同方式解读同一段文字。" },
+    { "id": "gre-method", "book": "gre", "word": "method", "phonetic": "/ˈmeθəd/", "partOfSpeech": "n.", "meaning": "方法；办法", "example": "The researchers tested a new method of collecting data.", "translation": "研究人员测试了一种新的数据收集方法。" },
+    { "id": "gre-require", "book": "gre", "word": "require", "phonetic": "/rɪˈkwaɪər/", "partOfSpeech": "v.", "meaning": "需要；要求", "example": "Careful analysis requires time and attention.", "translation": "仔细分析需要时间和专注。" },
+    { "id": "gre-significant", "book": "gre", "word": "significant", "phonetic": "/sɪɡˈnɪfɪkənt/", "partOfSpeech": "adj.", "meaning": "重要的；显著的", "example": "The change had a significant effect on local communities.", "translation": "这项变化对当地社区产生了显著影响。" },
+    { "id": "gre-theory", "book": "gre", "word": "theory", "phonetic": "/ˈθɪəri/", "partOfSpeech": "n.", "meaning": "理论；学说", "example": "The evidence supports the central theory.", "translation": "证据支持这一核心理论。" }
+  ]
+}

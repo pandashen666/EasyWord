@@ -1,0 +1,18 @@
+{
+  "id": "cet4",
+  "title": "大学英语四级",
+  "shortTitle": "CET-4",
+  "description": "四级核心词汇，适合大学英语四级备考。",
+  "words": [
+    { "id": "cet4-abandon", "book": "cet4", "word": "abandon", "phonetic": "/əˈbændən/", "partOfSpeech": "v.", "meaning": "放弃；抛弃", "example": "She decided to abandon the plan and try something new.", "translation": "她决定放弃这个计划，尝试一些新事物。" },
+    { "id": "cet4-absorb", "book": "cet4", "word": "absorb", "phonetic": "/əbˈzɔːrb/", "partOfSpeech": "v.", "meaning": "吸收；理解", "example": "It takes time to absorb new information.", "translation": "理解新信息需要时间。" },
+    { "id": "cet4-achieve", "book": "cet4", "word": "achieve", "phonetic": "/əˈtʃiːv/", "partOfSpeech": "v.", "meaning": "实现；达到", "example": "With patience, you can achieve your goals.", "translation": "只要有耐心，你就能实现目标。" },
+    { "id": "cet4-adapt", "book": "cet4", "word": "adapt", "phonetic": "/əˈdæpt/", "partOfSpeech": "v.", "meaning": "适应；改编", "example": "Children adapt quickly to a new environment.", "translation": "孩子们能很快适应新环境。" },
+    { "id": "cet4-benefit", "book": "cet4", "word": "benefit", "phonetic": "/ˈbenɪfɪt/", "partOfSpeech": "n./v.", "meaning": "益处；使受益", "example": "Regular reading can benefit your vocabulary.", "translation": "定期阅读有助于扩大词汇量。" },
+    { "id": "cet4-challenge", "book": "cet4", "word": "challenge", "phonetic": "/ˈtʃælɪndʒ/", "partOfSpeech": "n./v.", "meaning": "挑战；质疑", "example": "Learning a language is a rewarding challenge.", "translation": "学习一门语言是一项有回报的挑战。" },
+    { "id": "cet4-complex", "book": "cet4", "word": "complex", "phonetic": "/kəmˈpleks/", "partOfSpeech": "adj./n.", "meaning": "复杂的；综合体", "example": "The problem seems complex at first.", "translation": "这个问题起初看起来很复杂。" },
+    { "id": "cet4-evidence", "book": "cet4", "word": "evidence", "phonetic": "/ˈevɪdəns/", "partOfSpeech": "n.", "meaning": "证据；迹象", "example": "There is strong evidence to support the idea.", "translation": "有充分证据支持这个观点。" },
+    { "id": "cet4-focus", "book": "cet4", "word": "focus", "phonetic": "/ˈfoʊkəs/", "partOfSpeech": "n./v.", "meaning": "集中；焦点", "example": "Try to focus on one task at a time.", "translation": "试着一次专注于一项任务。" },
+    { "id": "cet4-improve", "book": "cet4", "word": "improve", "phonetic": "/ɪmˈpruːv/", "partOfSpeech": "v.", "meaning": "改善；提高", "example": "A little practice every day will improve your fluency.", "translation": "每天练习一点会提升你的流利度。" }
+  ]
+}

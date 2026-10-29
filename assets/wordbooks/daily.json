@@ -1,0 +1,20 @@
+{
+  "id": "daily",
+  "title": "日常用语",
+  "shortTitle": "日常",
+  "description": "日常交流入门词汇，包含原创释义与例句。",
+  "words": [
+    { "id": "daily-arrange", "book": "daily", "word": "arrange", "phonetic": "/əˈreɪndʒ/", "partOfSpeech": "v.", "meaning": "安排；整理", "example": "I will arrange a time for us to meet.", "translation": "我来安排我们见面的时间。" },
+    { "id": "daily-available", "book": "daily", "word": "available", "phonetic": "/əˈveɪləbl/", "partOfSpeech": "adj.", "meaning": "有空的；可获得的", "example": "Are you available for lunch tomorrow?", "translation": "你明天有空一起吃午饭吗？" },
+    { "id": "daily-borrow", "book": "daily", "word": "borrow", "phonetic": "/ˈbɑːroʊ/", "partOfSpeech": "v.", "meaning": "借入；借用", "example": "Could I borrow your umbrella for a moment?", "translation": "我能借用一下你的雨伞吗？" },
+    { "id": "daily-change", "book": "daily", "word": "change", "phonetic": "/tʃeɪndʒ/", "partOfSpeech": "n./v.", "meaning": "改变；零钱", "example": "Do you have change for the bus?", "translation": "你有坐公交用的零钱吗？" },
+    { "id": "daily-convenient", "book": "daily", "word": "convenient", "phonetic": "/kənˈviːniənt/", "partOfSpeech": "adj.", "meaning": "方便的；便利的", "example": "Is this a convenient time to call?", "translation": "现在方便接电话吗？" },
+    { "id": "daily-guess", "book": "daily", "word": "guess", "phonetic": "/ɡes/", "partOfSpeech": "v./n.", "meaning": "猜测；猜想", "example": "I guess the store closes at nine.", "translation": "我猜这家店九点关门。" },
+    { "id": "daily-instead", "book": "daily", "word": "instead", "phonetic": "/ɪnˈsted/", "partOfSpeech": "adv.", "meaning": "代替；反而", "example": "We can walk instead of taking a taxi.", "translation": "我们可以步行，不坐出租车。" },
+    { "id": "daily-invite", "book": "daily", "word": "invite", "phonetic": "/ɪnˈvaɪt/", "partOfSpeech": "v.", "meaning": "邀请；招待", "example": "She invited her new neighbor for tea.", "translation": "她邀请新邻居来喝茶。" },
+    { "id": "daily-mind", "book": "daily", "word": "mind", "phonetic": "/maɪnd/", "partOfSpeech": "n./v.", "meaning": "介意；头脑；留心", "example": "Would you mind opening the window?", "translation": "你介意打开窗户吗？" },
+    { "id": "daily-order", "book": "daily", "word": "order", "phonetic": "/ˈɔːrdər/", "partOfSpeech": "n./v.", "meaning": "点餐；命令；顺序", "example": "May I order a cup of tea, please?", "translation": "请问我可以点一杯茶吗？" },
+    { "id": "daily-remind", "book": "daily", "word": "remind", "phonetic": "/rɪˈmaɪnd/", "partOfSpeech": "v.", "meaning": "提醒；使想起", "example": "Please remind me to bring my keys.", "translation": "请提醒我带钥匙。" },
+    { "id": "daily-suggest", "book": "daily", "word": "suggest", "phonetic": "/səˈdʒest/", "partOfSpeech": "v.", "meaning": "建议；提议", "example": "Could you suggest a good place for dinner?", "translation": "你能推荐一个吃晚饭的好地方吗？" }
+  ]
+}
